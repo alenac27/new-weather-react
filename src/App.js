@@ -12,8 +12,13 @@ export default function App() {
       <br />
       <br />
       <footer>
-        <a href="https://github.com/alenac27/weather-app">Open-source code</a>
-        by Alena Causov
+        <a href="https://github.com/alenac27/new-weather-react">
+          Open-source code
+        </a>
+        by Alena Causov and{" "}
+        <a href="https://superlative-malabi-ed0581.netlify.app/">
+          hosted on Netlify
+        </a>
       </footer>
     </div>
   );
