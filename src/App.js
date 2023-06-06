@@ -7,13 +7,12 @@ export default function App() {
     <div className="weather-app">
       <div className="container">
         <Weather defaultCity="Berlin" />
-        <div className="forecast" id="forecast"></div>
       </div>
       <br />
       <br />
       <footer>
         <a href="https://github.com/alenac27/new-weather-react">
-          Open-source code
+          Open-source code{" "}
         </a>
         by Alena Causov and{" "}
         <a href="https://superlative-malabi-ed0581.netlify.app/">

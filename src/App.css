@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   font-size: 20px;
+  font-weight: 600;
 }
 
 #current-degree,
@@ -25,11 +26,6 @@ h2 {
 
 #current-temperature {
   padding: 20px;
-}
-
-.col-6 {
-  position: relative;
-  right: -550px;
 }
 
 .units {
@@ -74,18 +70,18 @@ h2 {
 
 #current-weather-icon {
   position: relative;
-  top: -30px;
-  left: -30px;
+  top: -5px;
   max-width: 150px;
   text-align: center;
 }
 
 #description {
   text-align: left;
-  font-size: 32px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 600;
   position: relative;
-  top: -60px;
+  top: -35px;
+  left: 15px;
 }
 
 #description::first-letter {
@@ -96,10 +92,6 @@ h2 {
 .wind-title {
   font-size: 32px;
   font-weight: 600;
-}
-
-.forecast {
-  margin-top: 30px;
 }
 
 #weather-forecast {

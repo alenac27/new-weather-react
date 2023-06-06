@@ -8,7 +8,7 @@ export default function WeatherInfo(props) {
     <div>
       <FormattedDate date={props.data.date} />
       <div className="row">
-        <div className="col-lg-3">
+        <div className="col">
           <img
             id="current-weather-icon"
             src={props.data.iconUrl}
