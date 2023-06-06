@@ -41,7 +41,7 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div>
-        <div className="row">
+        <div className="row justify-content-end">
           <div className="col-md-6">
             <form onSubmit={handleSubmit} id="search-form">
               <div className="input-group mb-3">
