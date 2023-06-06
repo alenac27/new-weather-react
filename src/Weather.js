@@ -57,7 +57,6 @@ export default function Weather(props) {
                 />
 
                 <input type="submit" id="submit-button" value="Change city" />
-                <button id="location-button">Your location</button>
               </div>
             </form>
           </div>
